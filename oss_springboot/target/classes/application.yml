@@ -1,0 +1,19 @@
+server:
+  port: 8999
+
+# 设置spring上传文件大小
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB    # 默认1M，需要设置成10M，便于超过5M时提示错误信息
+      max-request-size: 10MB
+
+# 添加自定义的阿里云OSS参数
+aliyun:
+  endpoint: http://oss-cn-beijing.aliyuncs.com
+  access-key-id: LTAI4GD1XcQgrQuvkKnZYhhA
+  access-key-secret: 1n2i3VNxd5gWr9YPYuJbVMophsXUQr
+  bucket-name: lagou-imgs
+  url-prefix: https://lagou-imgs.oss-cn-beijing.aliyuncs.com/
+  file-size: 5  # MB

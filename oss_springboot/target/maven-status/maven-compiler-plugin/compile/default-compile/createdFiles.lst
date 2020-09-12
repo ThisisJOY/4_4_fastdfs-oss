@@ -1,0 +1,5 @@
+com/lagou/service/OssService.class
+com/lagou/bean/OssResult.class
+com/lagou/config/AliyunConfig.class
+com/lagou/controller/OssController.class
+com/lagou/ApplicationBoot.class
